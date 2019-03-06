@@ -7,6 +7,13 @@ class Context:
     def setState(self, index):
         self.current = self.states[index]
 
+    def validState(self, stateindex, status):
+        # Make detailed log
+        return self.states[index].definition == status 
+
+    def getStatus(self):
+        return {{ status }} 
+
 {{ transition_code }}
 
 if __name__ == "__main__":
