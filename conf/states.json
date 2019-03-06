@@ -1,0 +1,43 @@
+{ 
+    "INIT": {
+        "description": "",
+        "definition": "",
+        "transitions": {
+            "backup": "PREPARED"
+        }
+    },
+    "PREPARED": {
+        "description": "",
+        "definition": "",
+        "transitions": {
+            "config": "CONFED",
+            "restore": "INIT"
+        }
+    },
+    "CONFED": {
+        "description": "",
+        "definition": "",
+        "transitions": {
+            "config": "CONFED",
+            "restore": "INIT",
+            "start": "RUNNING"
+        }
+    },
+    "RUNNING": {
+        "description": "",
+        "definition": "",
+        "transitions": {
+            "stop": "CONFED",
+            "config": "RECONFED",
+            "restart": "RUNNING"
+        }
+    },
+    "RECONFED": {
+        "description": "",
+        "definition": "",
+        "transitions": {
+            "config": "RECONFED",
+            "restart": "RUNNING"
+        }
+    }     
+}

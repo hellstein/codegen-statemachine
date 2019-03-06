@@ -1,0 +1,21 @@
+[
+    {
+        "transition": "backup",
+        "statechanged": [
+            {
+                "current": "INIT",
+                "post": "PREPARED"
+            }
+        ]
+    },
+    {
+        "transition": "config",
+        "statechanged": [
+            {
+                "current": "PREPARED",
+                "post": "CONFED"
+            }
+        ]
+    }
+]
+
