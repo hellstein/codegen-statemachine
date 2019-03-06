@@ -7,7 +7,9 @@ class Context:
     def setState(self, index):
         self.current = self.states[index]
 
+{{ transition_code }}
+
 if __name__ == "__main__":
     cxt = Context()
-    cxt.current.{{ initaction }}(cxt)
+    cxt.{{ initaction }}()
 

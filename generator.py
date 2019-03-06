@@ -17,6 +17,7 @@ class CodeGener:
         self.tmpl['absstate'] = env.get_template('state.py')
         self.tmpl['state_enum'] = env.get_template('state_enum.py')
         self.tmpl['ctx'] = env.get_template('context.py')
+        self.tmpl['ctx_transition'] = env.get_template('ctx_transition.py')
         self.tmpl['import'] = env.get_template('import.py')
 
         self.codeinfo = {}
@@ -59,6 +60,6 @@ class CodeGener:
         Generate code file according to self.states, self.initstate, self.initaction
         """
         states_code = '['+', '.join([s.title()+'()' for s in self.info['statenames']])+']'
-        
         import_code = '\n'.join([self.tmpl['import'].render(pkg=s.lower(), api=s.title()) for s in self.info['statenames']])
-        self.codeinfo['context.py'] = self.tmpl['ctx'].render({"states": states_code, "initaction": self.info['initaction'], "import_code": import_code})
+        transition_code = '\n'.join([self.tmpl['ctx_transition'].render(transition=t) for t in self.info['transitionnames']])
+        self.codeinfo['context.py'] = self.tmpl['ctx'].render({"states": states_code, "initaction": self.info['initaction'], "import_code": import_code, "transition_code": transition_code})
