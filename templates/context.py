@@ -1,4 +1,4 @@
-{{ importinfo }}
+{{ import_code }}
 class Context:
     def __init__(self):
         self.states = {{ states }} 

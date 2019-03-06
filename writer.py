@@ -7,17 +7,8 @@ class Writer:
         self.directory = directory
         os.mkdir(self.directory)
 
-    def createStates(self, content):
-        """
-        Generate xxx_state.py
-        """
+    def create(self, content):
         for fname, code in content.items():
             with open(os.path.join(self.directory, fname), 'w') as f:
                 f.write(code)
 
-    def createContext(self, content):
-        """
-        Write init info into context.py
-        """
-        with open(os.path.join(self.directory, 'context.py'), 'w') as f:
-            f.write(content)

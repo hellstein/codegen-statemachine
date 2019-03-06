@@ -1,4 +1,4 @@
-{{ stateinfo }}
+{{ state_enum_code }}
 class State:
     """
     Auto gen prototypes of transitions
