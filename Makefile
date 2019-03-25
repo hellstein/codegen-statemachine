@@ -18,7 +18,7 @@ dev-config:
 	vim setup.py
 
 config:
-	sed -i '/^V/c\V="${VERSION}"' setup.py 
+	sed -i '/^V/c\V="$(VERSION)"' setup.py 
 
 .PHONY: pack
 pack:
