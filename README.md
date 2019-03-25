@@ -4,11 +4,11 @@
 
 <h1 align="center"> State Machine code generator </h1>
 <p align="center">
-  <b>Code generator to create a state machine</b>
+  <b> Code generator to create a state machine </b>
 </p>
 <br>
 
-[![GitHub release](https://img.shields.io/github/release/hellstein/statemachine.svg)](https://github.com/hellstein/statemachine/releases) [![Join the chat at https://gitter.im/statemachine/community](https://badges.gitter.im/statemachine/community.svg)](https://gitter.im/statemachine/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![GitHub release](https://img.shields.io/github/release/hellstein/statemachine.svg)](https://github.com/hellstein/statemachine/releases)
 ![Github All Releases](https://img.shields.io/github/downloads/hellstein/statemachine/total.svg)
 ![Travis (.org) branch](https://img.shields.io/travis/hellstein/statemachine/BRANCH.svg)
 ![GitHub](https://img.shields.io/github/license/hellstein/statemachine.svg)
@@ -18,7 +18,7 @@ Please check the [github page](https://hellstein.github.io/statemachine) for thi
 
 # How to contribute
 * Please check the [github page](https://hellstein.github.io/statemachine) for this project.
-* Join the [gitter](https://gitter.im/statemachine/community)
+* Join the [gitter](https://gitter.im/hellstein/community)
 
 # Logistics
 ### Code of conduct
