@@ -1,6 +1,6 @@
-language: python 
+language: python
 python:
-    - "3.6"
+- '3.6'
 sudo: required
 dist: trusty
 branches:
@@ -13,8 +13,8 @@ script:
 deploy:
 - provider: pypi
   on:
-      tags: true
-      all_branches: true
+    tags: true
+    all_branches: true
   username: phoenix.lv
   password:
-    secure: s4ykjkF1RiW65IpMHRhg9Ih4452dOUZxXqo96OJJGqwupL+ChipQMr9YmT9pabMBkcP1Bo5r/ldgKDmXLqKRpKFAEGJRBsjLdn9zUl5R1Q60RPYZhk+Jte2hQZ+I8zzIrAdNaQkIUGfLp9LQ2R2VIdiHIygh+YTS/NMoLSgmy9zCM5ahdAQHKtfbnvU43vMUgk5T6X8C2+eqM+qQ/8SxJ+q2fsYDH7bJ7+lIguWTzn0GF8N9Wx5HmoddxMUFsDRSl669Jlk2JkuJQ+30xgDan03KtfRnaSIYuDPjVn2iZJvGhF95MIYOOMdNdmjCc5XnWBLRI1MpUGTE5McRS9RLBlRImNf2CPDyQC5mG+BzffGRvZVHQBMD/lZjE3/CjwG+B0B/F1K8ow3R7WG2vnKV+CBm+FaKGt9niv9qL5h1A4+lwZGoA0HGdmxswxNtY0H+t8XIYwx9DEqM+f/BHRr5zLQKnGjL7pv4/eYtgDfPs/PLP9UH1PVu1m4ZlJIsw/WClmWnxGBLcKkhTW7NTUqrYsCIZ+6U5a/KE6SwhaoZgfqmtxUWaR6AiRPhzBRrRQbAo3QKX7SmbPhFoTfFnd4C6h33FBmDBp1LObIq5VcfA+svWS7ZuR+XBRYVFc/2CWlKDhrnvVcoXOTslUUGOJtb65p9dZua2WKe3+mpisDINAw=
+    secure: Z3HKyidDI1duYGdxWDMv0o+XC9D2bQYJuzOBCbvF08o/UT9S4zDnMA0Rb+aOzZOH9xbKBF9E4vjbnkhs8Vi7gqhq7faC8ObBbocDB/VsYiJW2RDBuL8oNk3cy0ncgLSOVPQsJnoY0jF7vvdMEYuixXRxUBmbC8sQFwy788nwG17yeAX3FH5JFQLN81AWte+cdlpeLPZIK8kkrUJ+zo8tADMeLOmD9nhebm1tRXgMVqTgOY8b/bgKuUkG1Q+wLQEdd7pQrxWi9ZLC1q9qWvst5s0L15gF0sVBK5uBDJkSxEJ7DWWtAnEe/h9MeblbAw+/HUTfi4A77xrqV6Md+Jfx352ufDfKsKQ+O41T27iXBwUpGdNHV6ViGgb9YjcZ4cKO/FGjaabUvXfXxjiRRePDhWNlcpX3KPfffi9S1C4SeEBWVLBTalamchVxrx8KMXGQinKS2GeEIIB8LosgIxYDRa0HhZWNoIx0Hg9kfrYzO3PY0/kTIedB9Od2fWrs9I0q3PthymScjhaTKtUdpvs1aT/YOYqjtY7bJ9b+h019zcqlT6OtHq/F1s5ACuCAHB99VWIvt+9F/lbNQnhcqM4G2qN9FPO4t04FQN5D6+GphfxIObIVMh0QVbS6nC/FBW6LNXDOdwBndnUEsvxudSlzxD+VXFcBMLV3CKRaTM4u1PQ=
