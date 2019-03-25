@@ -1,4 +1,4 @@
-import json
+import json, os
 from jinja2 import Environment, Template, FileSystemLoader
 class CodeGener:
     """
@@ -6,8 +6,9 @@ class CodeGener:
     """
     def __init__(self, info):
         self.info = info
+        tmpldir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'templates')
         env = Environment(
-            loader=FileSystemLoader(searchpath='./templates')
+            loader=FileSystemLoader(searchpath=tmpldir)
         )
 
         self.tmpl = {}
