@@ -10,8 +10,10 @@ install:
 - make install-deps
 script:
 - make build VERSION=$TRAVIS_TAG
+- cat smgen.egg-info/PKG-INFO
 deploy:
 - provider: pypi
+  skip_cleanup: true
   on:
     tags: true
     all_branches: true
