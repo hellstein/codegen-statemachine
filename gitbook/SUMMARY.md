@@ -1,11 +1,10 @@
 # SUMMARY
 
-* [Introduction](README.md)
+* [Introduction to statemachine](README.md)
 
 ### Quick Start 
 * [Prerequisite](qs/prerequisite.md)
 * [Deployment](qs/deployment.md)
-* [How to use](qs/usage.md)
 
 ### For Developer
 * [How to set dev environment](dev/setdevenv.md)
