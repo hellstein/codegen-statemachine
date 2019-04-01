@@ -2,12 +2,12 @@
 
 ### Clone the project
 ```
-git clone https://github.com/hellstein/statemachine.git
+git clone https://github.com/hellstein/codegen-statemachine.git
 ```
 
 ### Make changes and doing development build
 ```
-cd statemachine 
+cd codegen-statemachine 
 ```
 * Make feature changes
 * Doing development build and test

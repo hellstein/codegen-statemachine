@@ -2,7 +2,7 @@
 
 ### Clone the project
 ```
-git clone https://github.com/hellstein/statemachine.git
+git clone https://github.com/hellstein/codegen-statemachine.git
 ```
 
 ### Install dependencies
@@ -11,7 +11,7 @@ git clone https://github.com/hellstein/statemachine.git
 
 ### Create python package for testing
 ```
-cd statemachine
+cd codegen-statemachine
 make dev-update
 ```
 * We use the PyPI test repo for development, you can check `Makefile` to see the build and test process.
