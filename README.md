@@ -18,7 +18,7 @@ Please check the [github page](https://hellstein.github.io/codegen-statemachine)
 
 # How to contribute
 * Please check the [github page](https://hellstein.github.io/codegen-statemachine) for this project.
-* Join the [gitter](https://gitter.im/hellstein/community)
+* Join the [gitter](https://gitter.im/hellsteins/community)
 
 # Logistics
 ### Code of conduct
